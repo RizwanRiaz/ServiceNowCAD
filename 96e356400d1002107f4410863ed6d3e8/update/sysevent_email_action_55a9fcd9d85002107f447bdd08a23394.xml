@@ -40,7 +40,13 @@
 <p>&nbsp;</p>
 <p>The &nbsp;${item_type} (${cmdb_ci}) is available for pick up at ${depot}.</p>
 <p>Your reservation is scheduled tp begin ${start_date}. Please return the item to the same location you picked it up by ${end_date}.</p>
-<p><br />You will receive a return reminder notification.</p>]]></message_html>
+<p><br />You will receive a return reminder notification.</p>
+<p>&lt;mail_script&gt;</p>
+<p>if (current.item_type == "cmdb_ci_computer") {<br />&nbsp; &nbsp; &nbsp; &nbsp; var request = new sn_ws.RESTMessageV2();<br />&nbsp; &nbsp; &nbsp; &nbsp; request.setEndpoint('<a href="https://nowlearning-nlinst01459868-0001.lab.service-now.com/api/now/table/u_password_vault?sysparm_query=u_asset%3DP1000640'">https://nowlearning-nlinst01459868-0001.lab.service-now.com/api/now/table/u_password_vault?sysparm_query=u_asset%3DP1000640'</a> + current.cmdb_ci.asset_tag + '&amp;sysparm_fields=u_password&amp;sysparm_limit=1');<br />&nbsp; &nbsp; &nbsp; &nbsp; request.setHttpMethod('GET');</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; //Eg. UserName="admin", Password="admin" for this code sample.<br />&nbsp; &nbsp; &nbsp; &nbsp; var user = 'admin';<br />&nbsp; &nbsp; &nbsp; &nbsp; var password = 'CHANGE THIS TO YOUR INSTANCE PASSWORD';</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; request.setBasicAuth(user, password);<br />&nbsp; &nbsp; &nbsp; &nbsp; request.setRequestHeader("Accept", "application/json");</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; var response = request.execute();<br />&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />&nbsp; &nbsp; &nbsp; &nbsp; var obj = JSON.parse(response.getBody());<br />&nbsp; &nbsp; &nbsp; &nbsp; var myPass = obj.result[0].u_password;<br />&nbsp; &nbsp; &nbsp; &nbsp; gs.info('u_password: ' + myPass);<br />&nbsp; &nbsp; }</p>
+<p>&lt;/mail_script.</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Loaner Item Pick Up</name>
@@ -62,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>55a9fcd9d85002107f447bdd08a23394</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Loaner Item Pick Up</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">96e356400d1002107f4410863ed6d3e8</sys_package>
@@ -70,7 +76,7 @@
         <sys_scope display_value="Loaner Request">96e356400d1002107f4410863ed6d3e8</sys_scope>
         <sys_update_name>sysevent_email_action_55a9fcd9d85002107f447bdd08a23394</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-10 16:14:58</sys_updated_on>
+        <sys_updated_on>2024-02-10 17:25:22</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
