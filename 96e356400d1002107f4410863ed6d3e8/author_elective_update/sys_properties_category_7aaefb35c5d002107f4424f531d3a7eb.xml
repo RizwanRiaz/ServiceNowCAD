@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="DELETE">
+        <name>Ammar Hair Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 19:46:58</sys_created_on>
+        <sys_id>7aaefb35c5d002107f4424f531d3a7eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ammar Hair Properties</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">96e356400d1002107f4410863ed6d3e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">96e356400d1002107f4410863ed6d3e8</sys_scope>
+        <sys_update_name>sys_properties_category_7aaefb35c5d002107f4424f531d3a7eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 19:46:58</sys_updated_on>
+        <title><![CDATA[<p>He is no more a bald guy</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="DELETE" query="documentkey=7aaefb35c5d002107f4424f531d3a7eb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">96e356400d1002107f4410863ed6d3e8</application>
+        <file_path/>
+        <instance_id>fdc1cb33474c86106fbd2535126d43c7</instance_id>
+        <instance_name>nowlearning-nlinst01459868-0001</instance_name>
+        <name>sys_properties_category_7aaefb35c5d002107f4424f531d3a7eb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Ammar Hair Properties&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-12 19:46:58&lt;/sys_created_on&gt;&lt;sys_id&gt;7aaefb35c5d002107f4424f531d3a7eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ammar Hair Properties&lt;/sys_name&gt;&lt;sys_package display_value="Loaner Request" source="x_cdltd_loaner_req"&gt;96e356400d1002107f4410863ed6d3e8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Request"&gt;96e356400d1002107f4410863ed6d3e8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_7aaefb35c5d002107f4424f531d3a7eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-12 19:46:58&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;He is no more a bald guy&lt;/p&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7aaefb35c5d002107f4424f531d3a7eb"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>881218728</payload_hash>
+        <record_name>Ammar Hair Properties</record_name>
+        <reverted_from/>
+        <source>d31959ddd8d002107f447bdd08a233e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 19:46:58</sys_created_on>
+        <sys_id>a50fb7f1c5d002107f4424f531d3a7d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d9edbc0c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 19:46:58</sys_updated_on>
+        <type>System Property Category</type>
+        <update_guid>e90fb7f184d002109db797b5df67b5d4</update_guid>
+        <update_guid_history>e90fb7f184d002109db797b5df67b5d4:881218728</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 19:48:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties_category">sys_properties_category</sys_db_object>
+        <sys_id>0f45d52653b242628e1a69c4601712c9</sys_id>
+        <sys_metadata>7aaefb35c5d002107f4424f531d3a7eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ammar Hair Properties</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">96e356400d1002107f4410863ed6d3e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">96e356400d1002107f4410863ed6d3e8</sys_scope>
+        <sys_scope_delete display_value="">1f8a268a34d946848b3303146fdf4151</sys_scope_delete>
+        <sys_update_name>sys_properties_category_7aaefb35c5d002107f4424f531d3a7eb</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_7aaefb35c5d002107f4424f531d3a7eb">a50fb7f1c5d002107f4424f531d3a7d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 19:48:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
